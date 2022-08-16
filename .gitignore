@@ -47,4 +47,4 @@ app.*.map.json
 /android/app/release
 
 # My folders
-lib/Functions/refresh_user_details.dart
+*/lib/Functions/*

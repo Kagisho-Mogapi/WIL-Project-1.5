@@ -8,6 +8,7 @@ import 'package:cut_wil_2021/services/schedule_service.dart';
 import 'package:cut_wil_2021/services/ticket_service.dart';
 import 'package:cut_wil_2021/services/user_service.dart';
 import 'package:provider/provider.dart';
+import 'package:cut_wil_2021/keys/keys.dart';
 
 // A splash screen to load and configure the app to Backendless
 
@@ -19,6 +20,12 @@ class Loading extends StatefulWidget {
 }
 
 class _LoadingState extends State<Loading> {
+  static const String SERVER_URL = Keys.SERVER_URL;
+  static const String APPLICATION_ID = Keys.APPLICATION_ID;
+  static const String ANDROID_API_KEY = Keys.ANDROID_API_KEY;
+  static const String IOS_API_KEY = Keys.IOS_API_KEY;
+  static const String JS_API_KEY = Keys.JS_API_KEY;
+
   @override
   void initState() {
     super.initState();

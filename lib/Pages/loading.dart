@@ -1,4 +1,5 @@
 import 'package:backendless_sdk/backendless_sdk.dart';
+import 'package:cut_wil_2021/widgets/regexes.dart';
 import 'package:flutter/material.dart';
 import 'package:cut_wil_2021/Functions/role_assign.dart';
 import 'package:cut_wil_2021/Routes/routes.dart';
@@ -18,12 +19,6 @@ class Loading extends StatefulWidget {
 }
 
 class _LoadingState extends State<Loading> {
-  static const String SERVER_URL = "https://eu-api.backendless.com";
-  static const String APPLICATION_ID = "0954A36E-9F7B-7637-FF50-7E2A0A04F300";
-  static const String ANDROID_API_KEY = "0912E9AD-0709-4704-8191-EAB00CC21F6E";
-  static const String IOS_API_KEY = "A7B5CB5F-837F-4C3F-BFC9-BDD4DC25D65F";
-  static const String JS_API_KEY = "686AA833-CA05-4AA2-8F22-D524793BAFF5";
-
   @override
   void initState() {
     super.initState();

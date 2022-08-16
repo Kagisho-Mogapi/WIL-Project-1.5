@@ -42,7 +42,6 @@ class RouteManager {
       '/login/home/Buy/PuchaseDetails/successfulTopup';
   static const String boughtHistory =
       '/login/home/Buy/PuchaseDetails/boughtHistory';
-  static const String topupBalance = '/login/home/topupBalance';
   static const String history = '/login/home/history';
   static const String schedule = '/login/home/schedule';
   static const String writeSchedule = '/login/home/schedule/writeSchedule';
@@ -92,9 +91,6 @@ class RouteManager {
 
       case newHome:
         return MaterialPageRoute(builder: (context) => const Home());
-
-      case balanceDetails:
-        return MaterialPageRoute(builder: (context) => const TopupBalance());
 
       case balanceDetails:
         return MaterialPageRoute(builder: (context) => const TopupBalance());
